@@ -54,7 +54,25 @@ hr {
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
+  background-color: bisque;          
+  padding: 1.5rem;             
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  max-width: 600px;            
+  margin-left: auto;           
+  margin-right: auto;
+}
+
+label {
+  font-weight: 600;
+}
+
+button.btn {
+  align-self: flex-start; 
+  cursor: pointer;
+}
+
+body.contacto{
+  background-color: whitesmoke;
 }
