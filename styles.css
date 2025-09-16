@@ -1,6 +1,12 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+.imagenportada {
+  display: block;  
+  margin: 1% auto;   
+  max-width: 400px;   
+  border-radius: 12px;  
 }
 
 h1{
@@ -35,4 +41,20 @@ hr {
   width: 100%;
   border-collapse: collapse;
   margin-top: 1%;
+}
+
+.table th, td {
+  border: 1px solid #740808;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.table th {
+  background-color: #98a0aa;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
