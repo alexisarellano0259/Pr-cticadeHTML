@@ -3,10 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>contacto</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
-<body>
-    
+<body class="contacto">
+    <section class="form">
+    <h2>Envíanos un mensaje</h2>
+    <form method="post">
+
+      <label for="email">Correo:</label>
+      <input id="email" name="email" type="email" required>
+      <br>
+      <br>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" cols="30" rows="4" required></textarea>
+      <br>
+      <br>
+      <label for="clasificacion">Clasificación:</label>
+      <select id="clasificacion" name="clasificacion" required>
+        <option value="">-- Selecciona una opción --</option>
+        <option value="contratacion">Contratación</option>
+        <option value="personal">Personal</option>
+        <option value="otro">Otro</option>
+      </select>
+
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
 </body>
 
 
